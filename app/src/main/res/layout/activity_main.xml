@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:fontFamily="@font/amarante"
+        android:text="Upload and Retrieve PDF File"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_path"
+        android:textColor="@color/blue"
+        android:padding="20sp"
+        android:hint="Select from storage"
+        android:layout_margin="30sp"
+        android:fontFamily="@font/amarante"
+         />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload PDF"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/purple"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:fontFamily="@font/amarante"
+        android:layout_gravity="center"
+        android:layout_marginTop="70sp"/>
+    
+    <ImageButton
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/white"
+        android:id="@+id/tmg_btn_retrieve"
+        android:onClick="onRetrievePDF"/>
+
+</LinearLayout>

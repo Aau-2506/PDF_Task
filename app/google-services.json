@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "352343325137",
+    "project_id": "pdf-task",
+    "storage_bucket": "pdf-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352343325137:android:057ccfa992d48a844788f0",
+        "android_client_info": {
+          "package_name": "com.example.pdftask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvyl-zENPw6kFDT4E0CcgtYVZ_b8AM3Ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
